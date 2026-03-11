@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Data (keep structure, ignore contents)
+data/bot.db
+data/artifacts/*.pkl
+data/artifacts/*.json
+data/logs/*.log
+data/exports/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
